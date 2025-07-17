@@ -1,0 +1,31 @@
+{
+  "name": "portfolio-rubiale-melo-filho",
+  "version": "1.0.0",
+  "description": "Portfólio pessoal desenvolvido para o desafio da DIO",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'Build completed successfully!'",
+    "deploy": "echo 'Ready for deployment!'"
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "html",
+    "css",
+    "javascript",
+    "rubiale",
+    "developer"
+  ],
+  "author": "Rubiale Alves de Melo Filho",
+  "license": "MIT",
+  "homepage": "https://rubialefilho.github.io/portfolio-dio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rubialefilho/portfolio-dio.git"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
